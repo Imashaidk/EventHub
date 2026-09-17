@@ -1,0 +1,21 @@
+# Git ignore for EventHub workspace
+
+# Node.js
+backend/node_modules/
+backend/npm-debug.log*
+
+# Flutter / Dart
+event_hub_app/.dart_tool/
+event_hub_app/.flutter-plugins
+event_hub_app/.flutter-plugins-dependencies
+event_hub_app/.packages
+event_hub_app/build/
+event_hub_app/.pub-cache/
+event_hub_app/.pub/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
