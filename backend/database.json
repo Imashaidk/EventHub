@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "name": "Alex Morgan",
+      "email": "alex@eventhub.com",
+      "password": "password123",
+      "phone": "+1 (555) 234-5678",
+      "role": "user",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "bio": "Tech enthusiast, live music lover, and frequent weekend traveler.",
+      "createdAt": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "usr_org1",
+      "name": "Summit Productions",
+      "email": "organizer@eventhub.com",
+      "password": "password123",
+      "phone": "+1 (555) 876-5432",
+      "role": "organizer",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "bio": "Premier event management team curating unforgettable tech summits and concerts.",
+      "createdAt": "2026-01-05T08:30:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_1",
+      "title": "Global Tech Innovators Summit 2026",
+      "description": "Join world-class engineers, founders, and AI visionaries for three days of keynotes, breakthrough architecture showcases, and hands-on developer workshops. Network with over 2,000 attendees from leading tech companies.",
+      "category": "Technology",
+      "date": "2026-10-15",
+      "time": "09:00 AM - 05:00 PM",
+      "location": "Metropolitan Convention Center, New York, NY",
+      "price": 149,
+      "availableSeats": 85,
+      "totalSeats": 300,
+      "organizerId": "usr_org1",
+      "organizerName": "Summit Productions",
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
+      "featured": true,
+      "tags": [
+        "AI",
+        "Cloud",
+        "Developer",
+        "Networking"
+      ],
+      "createdAt": "2026-01-12T12:00:00.000Z"
+    },
+    {
+      "id": "evt_2",
+      "title": "Neon Pulse Electronic Music Festival",
+      "description": "Experience electrifying soundscapes with top international DJs, mind-bending holographic visuals, laser displays, and premium open-air festival vibes.",
+      "category": "Music",
+      "date": "2026-10-24",
+      "time": "06:00 PM - 02:00 AM",
+      "location": "Pier 40 Waterfront Pavilion, San Francisco, CA",
+      "price": 79.5,
+      "availableSeats": 210,
+      "totalSeats": 500,
+      "organizerId": "usr_org1",
+      "organizerName": "Summit Productions",
+      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
+      "featured": true,
+      "tags": [
+        "Music",
+        "Festival",
+        "Nightlife",
+        "EDM"
+      ],
+      "createdAt": "2026-01-14T14:20:00.000Z"
+    },
+    {
+      "id": "evt_3",
+      "title": "Artisan Coffee & Culinary Expo",
+      "description": "A celebration of world roast profiles, specialty brews, pastry pairing masterclasses, and live barista championship showdowns.",
+      "category": "Food & Drinks",
+      "date": "2026-11-02",
+      "time": "10:00 AM - 04:00 PM",
+      "location": "Grand Market Hall, Seattle, WA",
+      "price": 35,
+      "availableSeats": 42,
+      "totalSeats": 150,
+      "organizerId": "usr_org1",
+      "organizerName": "Summit Productions",
+      "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1200&q=80",
+      "featured": false,
+      "tags": [
+        "Coffee",
+        "Food",
+        "Culinary",
+        "Tasting"
+      ],
+      "createdAt": "2026-01-18T09:00:00.000Z"
+    },
+    {
+      "id": "evt_4",
+      "title": "Urban Marathon & Charity 10K",
+      "description": "Lace up your running shoes and traverse scenic harbor trails in the annual city charity race. Includes finisher medals, timing chips, hydration stations, and after-party.",
+      "category": "Sports",
+      "date": "2026-11-14",
+      "time": "07:00 AM - 12:00 PM",
+      "location": "Downtown Harbor Trail, Boston, MA",
+      "price": 45,
+      "availableSeats": 120,
+      "totalSeats": 400,
+      "organizerId": "usr_org1",
+      "organizerName": "Summit Productions",
+      "image": "https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?auto=format&fit=crop&w=1200&q=80",
+      "featured": true,
+      "tags": [
+        "Fitness",
+        "Marathon",
+        "Running",
+        "Charity"
+      ],
+      "createdAt": "2026-01-20T11:45:00.000Z"
+    },
+    {
+      "id": "evt_5",
+      "title": "Modern Canvas & Abstract Painting Workshop",
+      "description": "Unleash your artistic expression in an immersive studio workshop led by renowned contemporary artists. All canvases, acrylics, brushes, and complimentary wine included.",
+      "category": "Arts & Culture",
+      "date": "2026-11-20",
+      "time": "02:00 PM - 06:00 PM",
+      "location": "SoHo Art Collective, New York, NY",
+      "price": 60,
+      "availableSeats": 18,
+      "totalSeats": 30,
+      "organizerId": "usr_org1",
+      "organizerName": "Summit Productions",
+      "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=1200&q=80",
+      "featured": false,
+      "tags": [
+        "Art",
+        "Workshop",
+        "Painting",
+        "Creativity"
+      ],
+      "createdAt": "2026-01-22T16:10:00.000Z"
+    },
+    {
+      "id": "evt_6",
+      "title": "Future of Clean Energy & Climate Summit",
+      "description": "Discover breakthrough renewable energy solutions, battery innovations, and ESG policies shaping sustainable industries worldwide.",
+      "category": "Business",
+      "date": "2026-12-05",
+      "time": "09:30 AM - 04:30 PM",
+      "location": "Green Center Hall, Austin, TX",
+      "price": 95,
+      "availableSeats": 70,
+      "totalSeats": 250,
+      "organizerId": "usr_org1",
+      "organizerName": "Summit Productions",
+      "image": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1200&q=80",
+      "featured": false,
+      "tags": [
+        "Energy",
+        "Sustainability",
+        "Climate",
+        "Business"
+      ],
+      "createdAt": "2026-01-25T10:00:00.000Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_1",
+      "eventId": "evt_1",
+      "eventTitle": "Global Tech Innovators Summit 2026",
+      "eventImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
+      "eventDate": "2026-10-15",
+      "eventTime": "09:00 AM - 05:00 PM",
+      "eventLocation": "Metropolitan Convention Center, New York, NY",
+      "userId": "usr_1",
+      "userName": "Alex Morgan",
+      "userEmail": "alex@eventhub.com",
+      "userPhone": "+1 (555) 234-5678",
+      "ticketsCount": 2,
+      "ticketPrice": 149,
+      "totalPrice": 298,
+      "status": "confirmed",
+      "bookingReference": "EH-89241-TX",
+      "createdAt": "2026-02-01T14:22:00.000Z"
+    }
+  ]
+}
