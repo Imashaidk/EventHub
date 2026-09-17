@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            auth.isAuthenticated ? 'Hello, ${auth.currentUser!.name} 👋' : 'Welcome to EventHub 👋',
+                            auth.isAuthenticated ? 'Hello, ${auth.currentUser!.name}' : 'Welcome to EventHub',
                             style: TextStyle(
                               fontSize: 14,
                               fontWeight: FontWeight.w600,
