@@ -6,6 +6,8 @@ import '../../providers/auth_provider.dart';
 import '../../theme/app_theme.dart';
 import '../booking/booking_sheet.dart';
 import '../auth/login_screen.dart';
+import '../../services/notification_service.dart';
+import '../../models/notification_model.dart';
 
 class EventDetailsScreen extends StatelessWidget {
   final String eventId;
@@ -58,6 +60,36 @@ class EventDetailsScreen extends StatelessWidget {
             ),
             actions: [
               IconButton(
+                tooltip: 'Set Reminder',
+                icon: Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: Colors.black.withValues(alpha: 0.4),
+                    shape: BoxShape.circle,
+                  ),
+                  child: const Icon(
+                    Icons.alarm_add_rounded,
+                    color: Colors.white,
+                    size: 20,
+                  ),
+                ),
+                onPressed: () {
+                  context.read<NotificationService>().addNotification(
+                    title: 'Event Reminder Set! ⏰',
+                    message: 'Reminder scheduled for "${event.title}" on ${event.date} at ${event.time}.',
+                    type: NotificationType.eventReminder,
+                    relatedId: event.id,
+                  );
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text('Reminder set for "${event.title}"'),
+                      duration: const Duration(seconds: 2),
+                    ),
+                  );
+                },
+              ),
+              IconButton(
+                tooltip: isFav ? 'Remove from Saved' : 'Save Event',
                 icon: Container(
                   padding: const EdgeInsets.all(8),
                   decoration: BoxDecoration(
