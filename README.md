@@ -10,7 +10,7 @@ A full-featured, cross-platform mobile application developed for the **Cross-Pla
 
 ---
 
-## 📌 Submission Information
+## Submission Information
 
 - **Module**: Cross-Platform App Development
 - **Project**: Exercise – Event Booking Mobile Application (EventHub)
@@ -21,7 +21,7 @@ A full-featured, cross-platform mobile application developed for the **Cross-Pla
 
 ---
 
-## 🔑 Demo Accounts & Credentials
+## Demo Accounts & Credentials
 
 Pre-seeded accounts are provided with instant one-tap buttons on the login screen for quick evaluation:
 
@@ -34,7 +34,7 @@ Pre-seeded accounts are provided with instant one-tap buttons on the login scree
 
 ---
 
-## 📱 Features & Assignment Requirements Coverage
+## Features & Assignment Requirements Coverage
 
 ### 1. User Account
 - **Registration**: User and Organizer account creation with input validation (Email regex, password length >= 6, password confirmation match).
@@ -100,7 +100,7 @@ Pre-seeded accounts are provided with instant one-tap buttons on the login scree
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 Event hub/
@@ -124,7 +124,7 @@ Event hub/
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### 1. Start the REST API Backend
 ```bash
@@ -152,9 +152,9 @@ flutter run -d android
 
 ---
 
-## 🧪 Quality Assurance & Test Results
+## Quality Assurance & Test Results
 
 - **Static Analysis**: `flutter analyze` executed with **0 issues found**.
 - **Automated Tests**: `flutter test` executed with **3/3 unit tests passing (100%)**.
 - **API Health**: Verified operational with HTTP 200 OK.
-- **Git Commits**: 14 structured, semantic commits matching every exercise requirement pushed to `main`.
+- **Git Commits**: 15 structured, semantic commits matching every exercise requirement pushed to `main`.
